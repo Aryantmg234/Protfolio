@@ -1,0 +1,134 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Roboto, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.bgimage{
+    height:100vh;
+    background-image:url("https://wallpapercave.com/wp/wp7453794.jpg");
+    background-size:cover;
+    position: relative;
+    background-position: center;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+
+.hero_title{
+    font-size:4.5rem;
+}
+
+.hero_desc{
+    font-size:2rem;
+}
+
+.hero-text{
+    text-align:center;
+    color:rgb(8, 42, 231);
+    text-shadow:
+    0 0 7px #e96464,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(253, 88, 11),
+    0 0 82px rgb(32, 92, 4);
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50% , -50%);
+}
+
+
+/* -------------------------------------------Home Section closed---------------------------------------------------- */
+
+
+
+/* About Section */
+#about {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+/* @keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+} */
+  /* -------------------------------------------------- */
+
+  .about{
+    background-image:url("https://i.pinimg.com/originals/8e/ff/5b/8eff5b93f842fb68cade70c1245c05bc.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:100%;
+  }
+/* 
+  .intro li{
+    color:greenyellow;
+    font-weight:400 ;
+    font-size:1rem;
+  } */
+
+  .imgAboutPage{
+    width:100%;
+  }
+
+  /* --------------------------------------------For services-------------------------------------------- */
+
+  /* For sevices hover  */
+
+ .card:hover .serviceIcon{
+  color:red;
+  transition: 1s;
+ }
+
+ .service{
+  background-image:url("https://static.vecteezy.com/system/resources/thumbnails/000/108/616/small/free-shining-polygon-vector-background.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+  weight:100%;
+}
+
+ .card-header:hover{
+  border:2px solid red;
+  background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200716/pngtree-vibrato-color-matching-geometric-background-image_358749.jpg");
+  color:white;
+ }
+.card-header{
+  width:100%;
+}
+
+/* anvabrScroll is js functions */
+.navbarScroll.navbarDark{
+  background-image:url("https://png.pngtree.com/background/20210717/original/pngtree-purple-glitter-oriented-logo-business-abstract-background-picture-image_1442821.jpg");
+}
+
+ .service:hover{
+  color:blueviolet;
+  border:10px solid red;
+}
+
+
+/*------------------------------------------Protfolio------------------------------------------------*/
+
+.cp{
+  transition: all 0.3s;
+}
+
+h3:hover{
+  color: darkred;
+}
+.cp:hover{
+  color:blue;
+  background-image:url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  background-size:cover;
+  transform:scale(1.1);
+}
+
